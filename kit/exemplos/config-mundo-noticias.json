@@ -1,0 +1,102 @@
+{
+ "blog_name": "MundoNotícias",
+ "name_accent_chars": 0,
+ "domain": "mundonoticias.blogspot.com",
+ "tagline": [
+  "Informar",
+  "Esclarecer",
+  "Aproximar"
+ ],
+ "topics": "notícias do país e do mundo, economia, tecnologia, saúde, desporto e entretenimento",
+ "niche": "generico",
+ "colors": {
+  "primary": "#06264f",
+  "accent": "#d90812"
+ },
+ "email": "contato@mundonoticias.com",
+ "whatsapp": "",
+ "date": "",
+ "logo": null,
+ "banner": null,
+ "footer_note": "Informação em tempo real",
+ "hero_lead_html": "As principais notícias do país e do mundo, <strong>em tempo real</strong>.",
+ "hero_buttons": {
+  "primary": "Ler notícias",
+  "secondary": "Mais lidas",
+  "secondary_label": "Mais Lidas"
+ },
+ "categorias": [
+  {
+   "nome": "Mundo",
+   "label": "Mundo",
+   "icone": "star",
+   "descricao": "Notícias internacionais",
+   "sobre": "Acontecimentos e análises do que se passa pelo mundo."
+  },
+  {
+   "nome": "País",
+   "label": "País",
+   "icone": "shield",
+   "descricao": "Atualidade nacional",
+   "sobre": "Política, sociedade e o dia a dia do país."
+  },
+  {
+   "nome": "Economia",
+   "label": "Economia",
+   "icone": "book",
+   "descricao": "Negócios e finanças",
+   "sobre": "Economia, mercados, emprego e finanças explicadas de forma clara."
+  },
+  {
+   "nome": "Tecnologia",
+   "label": "Tecnologia",
+   "icone": "users",
+   "descricao": "Inovação e digital",
+   "sobre": "Novidades em tecnologia, inovação e vida digital."
+  }
+ ],
+ "sobre": {
+  "intro_html": "O <strong>Artificializar</strong> é um espaço dedicado à Inteligência Artificial, programação, desenvolvimento de aplicações e inovação tecnológica.",
+  "quem_somos": [
+   "O Artificializar nasceu para tornar a tecnologia mais próxima de quem quer aprender. Aqui explicamos, em português e de forma prática, como funcionam as ferramentas de Inteligência Artificial, como se constroem aplicações e como nos podemos proteger no mundo digital.",
+   "Acreditamos que o conhecimento é o primeiro passo para inovar. Por isso, os conteúdos são pensados para quem está a começar e também para quem já trabalha na área e procura novas ideias."
+  ],
+  "valores": [
+   {
+    "titulo": "Aprender",
+    "texto": "Explicamos os conceitos passo a passo, com exemplos que podes testar."
+   },
+   {
+    "titulo": "Criar",
+    "texto": "Incentivamos a prática: construir projetos reais é a melhor maneira de aprender."
+   },
+   {
+    "titulo": "Inovar",
+    "texto": "Partilhamos ideias e ferramentas novas para resolver problemas de forma diferente."
+   }
+  ]
+ },
+ "contacto_intro_html": "Tens uma <strong>dúvida</strong>, uma <strong>sugestão de tema</strong> ou uma proposta de <strong>colaboração</strong>? Fala connosco, vamos ler a tua mensagem com atenção.",
+ "artigo_rodape": {
+  "texto": "Exploramos Inteligência Artificial, tecnologia e programação através de experiências práticas. O objetivo é mostrar não apenas o que as ferramentas conseguem fazer, mas como transformar ideias em aplicações reais.",
+  "assinatura": "Cria. Automatiza. Aprende."
+ },
+ "idiomas": {
+  "ativo": true,
+  "padrao": "pt",
+  "lista": [
+   "pt",
+   "en",
+   "es",
+   "fr",
+   "de",
+   "it",
+   "nl",
+   "ru",
+   "zh-CN",
+   "ja",
+   "ar",
+   "hi"
+  ]
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "blog_name": "Maternar",
+ "name_accent_chars": 3,
+ "domain": "maternar.blogspot.com",
+ "tagline": [
+  "Cuidar",
+  "Crescer",
+  "Florescer"
+ ],
+ "topics": "saúde da mulher, saúde reprodutiva, gravidez e maternidade",
+ "niche": "saude",
+ "colors": {
+  "primary": "#e0457b",
+  "accent": "#ff9fbf"
+ },
+ "email": "contacto@exemplo.com",
+ "whatsapp": "258800000000",
+ "date": "18 de novembro de 2026",
+ "logo": null,
+ "banner": null,
+ "footer_note": "Informação para cuidar de ti e da tua família.",
+ "hero_lead_html": "Um espaço dedicado à <strong>saúde da mulher</strong>, à saúde reprodutiva, à gravidez e à maternidade, com informação clara e acolhedora.",
+ "hero_buttons": {
+  "primary": "Ler artigos",
+  "secondary": "Guias para gestantes",
+  "secondary_label": "Guias"
+ },
+ "categorias": [
+  {
+   "nome": "Saúde da Mulher",
+   "menu": "Saúde",
+   "label": "Saúde da Mulher",
+   "icone": "heart",
+   "descricao": "Cuidados e prevenção",
+   "sobre": "Cuidados no dia a dia, prevenção e bem-estar em cada fase da vida."
+  },
+  {
+   "nome": "Saúde Reprodutiva",
+   "menu": "Reprodutiva",
+   "label": "Saúde Reprodutiva",
+   "icone": "activity",
+   "descricao": "Ciclo, fertilidade e planeamento",
+   "sobre": "Ciclo menstrual, fertilidade e planeamento familiar explicados com clareza."
+  },
+  {
+   "nome": "Gravidez",
+   "label": "Gravidez",
+   "icone": "leaf",
+   "descricao": "Semana a semana",
+   "sobre": "Acompanhamento da gestação, consultas, alimentação e sinais de alerta."
+  },
+  {
+   "nome": "Maternidade",
+   "label": "Maternidade",
+   "icone": "smile",
+   "descricao": "Pós-parto e bebé",
+   "sobre": "Amamentação, pós-parto e os primeiros cuidados com o bebé."
+  }
+ ],
+ "sobre": {
+  "intro_html": "O <strong>Maternar</strong> é um espaço dedicado à saúde da mulher, à saúde reprodutiva, à gravidez e à maternidade.",
+  "quem_somos": [
+   "O Maternar nasceu para oferecer informação clara, confiável e acolhedora a mulheres e famílias, em cada fase da vida.",
+   "Os conteúdos são educativos e não substituem a consulta com um profissional de saúde. A nossa missão é ajudar-te a fazer perguntas melhores e a sentir-te mais segura nas tuas decisões."
+  ],
+  "valores": [
+   {
+    "titulo": "Cuidar",
+    "texto": "Informação cuidadosa, baseada em fontes confiáveis."
+   },
+   {
+    "titulo": "Crescer",
+    "texto": "Conhecimento que te ajuda a evoluir em cada etapa."
+   },
+   {
+    "titulo": "Florescer",
+    "texto": "Bem-estar físico e emocional para ti e para a tua família."
+   }
+  ]
+ },
+ "contacto_intro_html": "Tens uma <strong>dúvida</strong>, uma <strong>sugestão de tema</strong> ou queres <strong>colaborar</strong>? Escreve-nos, vamos ler a tua mensagem com atenção.",
+ "artigo_rodape": {
+  "texto": "Informação clara e acolhedora para cuidares de ti e da tua família. Os conteúdos são educativos e não substituem a consulta com um profissional de saúde.",
+  "assinatura": "Cuida. Cresce. Floresce."
+ },
+ "idiomas": {
+  "ativo": true,
+  "padrao": "pt",
+  "lista": [
+   "pt",
+   "en",
+   "es",
+   "fr",
+   "de",
+   "it",
+   "nl",
+   "ru",
+   "zh-CN",
+   "ja",
+   "ar",
+   "hi"
+  ]
+ }
+}

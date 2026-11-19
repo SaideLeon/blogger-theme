@@ -1,0 +1,100 @@
+<!-- PÁGINA "CONTACTO" - ARTIFICIALIZADO
+     Blogger > Páginas > Nova página > Vista HTML > colar tudo > Publicar.
+     Ligação permanente personalizada: contacto  -> /p/contacto.html
+
+     ANTES DE PUBLICAR, substitui SEU_ID_FORMSPREE (formulário) pelo id do teu formulário em formspree.io (grátis).
+     Se não quiseres o formulário, apaga o bloco <form> e o cartão "Formulário". -->
+<style>
+.ai-contacto{--azul:#ff085e;--ciano:#f51660;--marinho:#350611;--texto:#744350;--linha:#f8dce4;font-family:inherit;color:var(--texto);line-height:1.7;font-size:16px}
+.ai-contacto *{box-sizing:border-box}
+.ai-contacto h2{color:#53091d;font-size:24px;line-height:1.25;margin:38px 0 14px;font-weight:800}
+.ai-contacto p{margin:0 0 14px}
+.ai-contacto a{text-decoration:none}
+
+.ai-contacto .intro{display:flex;align-items:center;gap:22px;padding:26px;border-radius:16px;color:#fff;background:linear-gradient(110deg,#350611,#780a2d);border-bottom:4px solid var(--ciano)}
+.ai-contacto .intro-logo{flex:none;width:76px;height:76px;background:var(--ai-logo) center/contain no-repeat}
+.ai-contacto .intro-texto{font-size:18px;line-height:1.5;font-weight:600;color:#fff}
+.ai-contacto .intro-texto strong{color:var(--ciano)}
+
+.ai-contacto .canais{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.ai-contacto .canal{display:block;padding:20px;background:#fff;border:1px solid var(--linha);border-radius:14px;box-shadow:0 5px 18px rgba(86,13,33,.07);color:var(--texto)!important;transition:transform .2s,box-shadow .2s}
+.ai-contacto .canal:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(86,13,33,.14)}
+.ai-contacto .canal-ico{display:grid;place-items:center;width:44px;height:44px;margin-bottom:12px;border-radius:12px;background:var(--marinho);color:var(--ciano)}
+.ai-contacto .canal-ico svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ai-contacto .canal h3{margin:0 0 4px;font-size:17px;color:#53091d;font-weight:800}
+.ai-contacto .canal p{margin:0;font-size:14.5px;line-height:1.5;word-break:break-word}
+.ai-contacto .canal b{color:var(--azul)}
+
+.ai-contacto form{padding:24px;background:#fff3f6;border:1px solid var(--linha);border-radius:16px}
+.ai-contacto .linha2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ai-contacto label{display:block;margin:0 0 6px;font-size:14px;font-weight:700;color:#53091d}
+.ai-contacto .campo{margin-bottom:16px}
+.ai-contacto input[type=text],.ai-contacto input[type=email],.ai-contacto select,.ai-contacto textarea{width:100%;padding:12px 14px;border:2px solid var(--linha);border-radius:12px;background:#fff;color:#44101d;font:inherit;font-size:15px;outline:none;transition:border-color .2s}
+.ai-contacto textarea{min-height:140px;resize:vertical}
+.ai-contacto input:focus,.ai-contacto select:focus,.ai-contacto textarea:focus{border-color:var(--ciano)}
+.ai-contacto .enviar{display:inline-block;padding:13px 28px;border:0;border-radius:28px;background:var(--azul);color:#fff;font:inherit;font-size:15px;font-weight:800;cursor:pointer}
+.ai-contacto .enviar:hover{background:#ef052c}
+.ai-contacto .nota{margin:14px 0 0;font-size:13px;color:#8b616c}
+.ai-contacto .oculto{position:absolute;left:-9999px;height:0;overflow:hidden}
+
+@media(max-width:700px){
+ .ai-contacto .intro{flex-direction:column;text-align:center;padding:22px 18px}
+ .ai-contacto .intro-logo{width:68px;height:68px}
+ .ai-contacto .intro-texto{font-size:16.5px}
+ .ai-contacto .canais,.ai-contacto .linha2{grid-template-columns:1fr}
+ .ai-contacto form{padding:18px}
+ .ai-contacto h2{font-size:21px}
+}
+</style>
+
+<div class="ai-contacto">
+
+  <div class="intro">
+    <span class="intro-logo" role="img" aria-label="Logótipo Maternar"></span>
+    <div class="intro-texto">Tens uma <strong>dúvida</strong>, uma <strong>sugestão de tema</strong> ou queres <strong>colaborar</strong>? Escreve-nos, vamos ler a tua mensagem com atenção.</div>
+  </div>
+
+  <h2>Canais de contacto</h2>
+  <div class="canais">
+    <a class="canal" href="mailto:contacto@exemplo.com">
+      <span class="canal-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+      <h3>Email</h3>
+      <p><b>contacto@exemplo.com</b></p>
+    </a>
+    <a class="canal" href="https://wa.me/258800000000" target="_blank" rel="noopener">
+      <span class="canal-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+      <h3>WhatsApp</h3>
+      <p>Envia-nos uma mensagem direta.</p>
+    </a>
+    <a class="canal" href="#formulario">
+      <span class="canal-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-8 8H4l2-3a8 8 0 1 1 15-5z"/><path d="M9 11h6M9 14h4"/></svg></span>
+      <h3>Formulário</h3>
+      <p>Escreve a tua mensagem aqui mesmo, logo a seguir.</p>
+    </a>
+  </div>
+
+  <h2 id="formulario">Envia-nos uma mensagem</h2>
+  <form action="https://formspree.io/f/SEU_ID_FORMSPREE" method="post">
+    <input type="hidden" name="_subject" value="Nova mensagem do blogue Maternar"/>
+    <div class="oculto" aria-hidden="true"><label for="ai-site">Não preencher</label><input type="text" id="ai-site" name="_gotcha" tabindex="-1" autocomplete="off"/></div>
+
+    <div class="linha2">
+      <div class="campo"><label for="ai-nome">Nome</label><input type="text" id="ai-nome" name="nome" required="required" autocomplete="name"/></div>
+      <div class="campo"><label for="ai-email">Email</label><input type="email" id="ai-email" name="email" required="required" autocomplete="email"/></div>
+    </div>
+    <div class="campo">
+      <label for="ai-assunto">Assunto</label>
+      <select id="ai-assunto" name="assunto">
+        <option>Dúvida sobre um artigo</option>
+        <option>Sugestão de tema</option>
+        <option>Colaboração ou parceria</option>
+        <option>Reportar um erro</option>
+        <option>Outro assunto</option>
+      </select>
+    </div>
+    <div class="campo"><label for="ai-mensagem">Mensagem</label><textarea id="ai-mensagem" name="mensagem" required="required"></textarea></div>
+    <button class="enviar" type="submit">Enviar mensagem</button>
+    <p class="nota">Respondemos assim que possível. Os teus dados são usados apenas para responder à tua mensagem.</p>
+  </form>
+
+</div>

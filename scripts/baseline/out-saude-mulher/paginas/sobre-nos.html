@@ -1,0 +1,95 @@
+<!-- PÁGINA "SOBRE NÓS" - ARTIFICIALIZADO
+     Blogger > Páginas > Nova página > mudar para "Vista HTML" > colar tudo > Publicar.
+     Endereço recomendado (Ligação permanente personalizada): sobre-nos  -> /p/sobre-nos.html -->
+<style>
+.ai-sobre{--azul:#ff085e;--ciano:#f51660;--marinho:#350611;--texto:#744350;--linha:#f8dce4;font-family:inherit;color:var(--texto);line-height:1.7;font-size:16px}
+.ai-sobre *{box-sizing:border-box}
+.ai-sobre h2{color:#53091d;font-size:24px;line-height:1.25;margin:40px 0 14px;font-weight:800}
+.ai-sobre p{margin:0 0 14px}
+.ai-sobre a{text-decoration:none}
+
+.ai-sobre .intro{display:flex;align-items:center;gap:22px;padding:26px;border-radius:16px;color:#fff;background:linear-gradient(110deg,#350611,#780a2d);border-bottom:4px solid var(--ciano)}
+.ai-sobre .intro-logo{flex:none;width:84px;height:84px;background:var(--ai-logo) center/contain no-repeat}
+.ai-sobre .intro-texto{font-size:19px;line-height:1.5;font-weight:600;color:#fff}
+.ai-sobre .intro-texto strong{color:var(--ciano)}
+.ai-sobre .intro-lema{display:block;margin-top:8px;font-size:12px;font-weight:500;letter-spacing:.2em;color:#f4c7d3}
+
+.ai-sobre .temas{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:18px}
+.ai-sobre .tema{display:flex;gap:14px;padding:18px;background:#fff;border:1px solid var(--linha);border-radius:14px;box-shadow:0 5px 18px rgba(86,13,33,.07)}
+.ai-sobre .tema-ico{flex:none;width:44px;height:44px;border-radius:12px;background:var(--marinho);color:var(--ciano);display:grid;place-items:center}
+.ai-sobre .tema-ico svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ai-sobre .tema h3{margin:0 0 4px;font-size:17px;color:#53091d;font-weight:800}
+.ai-sobre .tema p{margin:0;font-size:14.5px;line-height:1.55}
+
+.ai-sobre .valores{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.ai-sobre .valor{padding:20px;border-radius:14px;background:#fff3f6;border:1px solid var(--linha);border-top:4px solid var(--azul)}
+.ai-sobre .valor h3{margin:0 0 6px;font-size:18px;color:#53091d;font-weight:800}
+.ai-sobre .valor p{margin:0;font-size:14.5px;line-height:1.55}
+
+.ai-sobre .cta{margin-top:40px;padding:26px;border-radius:16px;text-align:center;color:#fff;background:linear-gradient(110deg,#350611,#780a2d)}
+.ai-sobre .cta h2{color:#fff;margin:0 0 8px}
+.ai-sobre .cta p{color:#ffdbe5;margin:0 auto 18px;max-width:520px}
+.ai-sobre .botoes{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.ai-sobre .btn{display:inline-block;padding:12px 22px;border-radius:28px;font-weight:800;font-size:14px;background:var(--azul);color:#fff!important}
+.ai-sobre .btn.sec{background:transparent;border:1px solid #ffd4e5}
+
+@media(max-width:640px){
+ .ai-sobre .intro{flex-direction:column;text-align:center;padding:22px 18px}
+ .ai-sobre .intro-logo{width:72px;height:72px}
+ .ai-sobre .intro-texto{font-size:17px}
+ .ai-sobre .temas,.ai-sobre .valores{grid-template-columns:1fr}
+ .ai-sobre h2{font-size:21px}
+}
+</style>
+
+<div class="ai-sobre">
+
+  <div class="intro">
+    <span class="intro-logo" role="img" aria-label="Logótipo Maternar"></span>
+    <div class="intro-texto">
+      O <strong>Maternar</strong> é um espaço dedicado à saúde da mulher, à saúde reprodutiva, à gravidez e à maternidade.
+      <span class="intro-lema">CUIDAR &bull; CRESCER &bull; FLORESCER</span>
+    </div>
+  </div>
+
+  <h2>Quem somos</h2>
+  <p>O Maternar nasceu para oferecer informação clara, confiável e acolhedora a mulheres e famílias, em cada fase da vida.</p>
+  <p>Os conteúdos são educativos e não substituem a consulta com um profissional de saúde. A nossa missão é ajudar-te a fazer perguntas melhores e a sentir-te mais segura nas tuas decisões.</p>
+
+  <h2>O que encontras aqui</h2>
+  <div class="temas">
+    <a class="tema" href="/search/label/Sa%C3%BAde%20da%20Mulher">
+      <span class="tema-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></span>
+      <span><h3>Saúde da Mulher</h3><p>Cuidados no dia a dia, prevenção e bem-estar em cada fase da vida.</p></span>
+    </a>
+    <a class="tema" href="/search/label/Sa%C3%BAde%20Reprodutiva">
+      <span class="tema-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+      <span><h3>Saúde Reprodutiva</h3><p>Ciclo menstrual, fertilidade e planeamento familiar explicados com clareza.</p></span>
+    </a>
+    <a class="tema" href="/search/label/Gravidez">
+      <span class="tema-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></span>
+      <span><h3>Gravidez</h3><p>Acompanhamento da gestação, consultas, alimentação e sinais de alerta.</p></span>
+    </a>
+    <a class="tema" href="/search/label/Maternidade">
+      <span class="tema-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></svg></span>
+      <span><h3>Maternidade</h3><p>Amamentação, pós-parto e os primeiros cuidados com o bebé.</p></span>
+    </a>
+  </div>
+
+  <h2>A nossa forma de trabalhar</h2>
+  <div class="valores">
+    <div class="valor"><h3>Cuidar</h3><p>Informação cuidadosa, baseada em fontes confiáveis.</p></div>
+    <div class="valor"><h3>Crescer</h3><p>Conhecimento que te ajuda a evoluir em cada etapa.</p></div>
+    <div class="valor"><h3>Florescer</h3><p>Bem-estar físico e emocional para ti e para a tua família.</p></div>
+  </div>
+
+  <div class="cta">
+    <h2>Vamos aprender juntos?</h2>
+    <p>Explora os artigos mais recentes ou fala connosco para sugerir temas, tirar dúvidas ou propor colaborações.</p>
+    <div class="botoes">
+      <a class="btn" href="/">Explorar artigos</a>
+      <a class="btn sec" href="/p/contacto.html">Contacto</a>
+    </div>
+  </div>
+
+</div>
