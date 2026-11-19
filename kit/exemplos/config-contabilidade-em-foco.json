@@ -1,0 +1,103 @@
+{
+ "blog_name": "Contabilidade em Foco",
+ "name_accent_chars": 0,
+ "domain": "contabilistaz.blogspot.com",
+ "tagline": [
+  "Aprender",
+  "Aplicar",
+  "Conquistar"
+ ],
+ "topics": "contabilidade, fiscalidade, legislação contabilística, dicas de estudo e carreira",
+ "niche": "generico",
+ "colors": {
+  "primary": "#06234b",
+  "accent": "#ffc400"
+ },
+ "email": "contato@contabilidadeemfoco.com",
+ "whatsapp": "",
+ "date": "",
+ "logo": null,
+ "banner": null,
+ "footer_note": "Aprenda. Aplique. Conquiste o seu futuro!",
+ "hero_lead_html": "Contabilidade explicada com <strong>exemplos reais</strong>, legislação e dicas de estudo.",
+ "hero_buttons": {
+  "primary": "Explorar artigos",
+  "secondary": "Ver dicas de estudo",
+  "secondary_label": "Dicas de Estudo"
+ },
+ "categorias": [
+  {
+   "nome": "Contabilidade Geral",
+   "label": "Contabilidade Geral",
+   "icone": "book",
+   "descricao": "Fundamentos e exemplos",
+   "sobre": "Fundamentos, débito e crédito, balanços e exemplos explicados passo a passo."
+  },
+  {
+   "nome": "Legislação Contabilística",
+   "menu": "Legislação",
+   "label": "Legislação Contabilística",
+   "icone": "shield",
+   "descricao": "Normas e leis",
+   "sobre": "Normas, leis e regulamentos que o contabilista precisa de conhecer."
+  },
+  {
+   "nome": "Fiscalidade",
+   "label": "Fiscalidade",
+   "icone": "star",
+   "descricao": "Impostos e obrigações",
+   "sobre": "Impostos, prazos e obrigações fiscais explicados de forma simples."
+  },
+  {
+   "nome": "Dicas de Estudo",
+   "label": "Dicas de Estudo",
+   "icone": "users",
+   "descricao": "Estudar e crescer",
+   "sobre": "Métodos de estudo, exercícios resolvidos e orientação de carreira."
+  }
+ ],
+ "sobre": {
+  "intro_html": "O <strong>Artificializar</strong> é um espaço dedicado à Inteligência Artificial, programação, desenvolvimento de aplicações e inovação tecnológica.",
+  "quem_somos": [
+   "O Artificializar nasceu para tornar a tecnologia mais próxima de quem quer aprender. Aqui explicamos, em português e de forma prática, como funcionam as ferramentas de Inteligência Artificial, como se constroem aplicações e como nos podemos proteger no mundo digital.",
+   "Acreditamos que o conhecimento é o primeiro passo para inovar. Por isso, os conteúdos são pensados para quem está a começar e também para quem já trabalha na área e procura novas ideias."
+  ],
+  "valores": [
+   {
+    "titulo": "Aprender",
+    "texto": "Explicamos os conceitos passo a passo, com exemplos que podes testar."
+   },
+   {
+    "titulo": "Criar",
+    "texto": "Incentivamos a prática: construir projetos reais é a melhor maneira de aprender."
+   },
+   {
+    "titulo": "Inovar",
+    "texto": "Partilhamos ideias e ferramentas novas para resolver problemas de forma diferente."
+   }
+  ]
+ },
+ "contacto_intro_html": "Tens uma <strong>dúvida</strong>, uma <strong>sugestão de tema</strong> ou uma proposta de <strong>colaboração</strong>? Fala connosco, vamos ler a tua mensagem com atenção.",
+ "artigo_rodape": {
+  "texto": "Exploramos Inteligência Artificial, tecnologia e programação através de experiências práticas. O objetivo é mostrar não apenas o que as ferramentas conseguem fazer, mas como transformar ideias em aplicações reais.",
+  "assinatura": "Cria. Automatiza. Aprende."
+ },
+ "idiomas": {
+  "ativo": true,
+  "padrao": "pt",
+  "lista": [
+   "pt",
+   "en",
+   "es",
+   "fr",
+   "de",
+   "it",
+   "nl",
+   "ru",
+   "zh-CN",
+   "ja",
+   "ar",
+   "hi"
+  ]
+ }
+}

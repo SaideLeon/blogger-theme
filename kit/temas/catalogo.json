@@ -1,0 +1,110 @@
+{
+ "temas": [
+  {
+   "id": "artificializado",
+   "nome": "Artificializado",
+   "estilo": "Cabeçalho escuro com cartões de categorias e banner grande. Ideal para tecnologia, IA, programação e blogs modernos.",
+   "ideal_para": [
+    "tecnologia",
+    "IA",
+    "programação",
+    "cibersegurança"
+   ],
+   "modo": "gerar",
+   "config_exemplo": "assets/exemplos/config-artificializado.json",
+   "preview": "assets/previews/artificializado.png"
+  },
+  {
+   "id": "mae-em-flor",
+   "nome": "Mãe em Flor",
+   "estilo": "Mesmo layout do Artificializado, em tons rosa. Ideal para saúde, maternidade, família e bem-estar.",
+   "ideal_para": [
+    "saúde",
+    "maternidade",
+    "família",
+    "bem-estar"
+   ],
+   "modo": "gerar",
+   "config_exemplo": "assets/exemplos/config-saude-mulher.json",
+   "preview": "assets/previews/mae-em-flor.png"
+  },
+  {
+   "id": "contabilidade-em-foco",
+   "nome": "Contabilidade em Foco",
+   "estilo": "Estilo portal de notícias: faixa azul-marinho com data e email, banner com logo, menu com lupa e seletor de idiomas, destaque com botão amarelo e barra lateral de categorias.",
+   "ideal_para": [
+    "contabilidade",
+    "finanças",
+    "impostos",
+    "educação",
+    "negócios",
+    "portal de artigos"
+   ],
+   "modo": "pronto",
+   "ficheiro": "assets/temas/contabilidade-em-foco.xml",
+   "config_exemplo": "assets/exemplos/config-contabilidade-em-foco.json",
+   "preview": "assets/previews/contabilidade-em-foco.png",
+   "personalizar": {
+    "textos": {
+     "nome": "Contabilidade em Foco",
+     "lema": "Aprenda. Aplique. Conquiste o seu futuro!",
+     "lema3": "Aprender · Aplicar · Conquistar",
+     "email": "contato@contabilidadeemfoco.com"
+    },
+    "imagens": {
+     "banner": {
+      "var": "pf-masthead",
+      "size": [
+       1536,
+       145
+      ]
+     },
+     "hero": {
+      "var": "pf-hero",
+      "size": [
+       1280,
+       520
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "mundo-noticias",
+   "nome": "MundoNotícias",
+   "estilo": "Portal de notícias moderno: barra com data, hora e clima da localização do leitor, banner com logo, menu fixo com pesquisa e idiomas, destaque com 3 notícias laterais, colunas por categoria, Mais Lidas, newsletter e cartões com sombra suave. Funciona bem no telemóvel.",
+   "ideal_para": [
+    "notícias",
+    "jornal",
+    "atualidade",
+    "portal de notícias",
+    "revista online",
+    "media local"
+   ],
+   "modo": "pronto",
+   "ficheiro": "assets/temas/mundo-noticias.xml",
+   "config_exemplo": "assets/exemplos/config-mundo-noticias.json",
+   "preview": "assets/previews/mundo-noticias.png",
+   "personalizar": {
+    "textos": {
+     "lema": "Informação em tempo real"
+    },
+    "imagens": {
+     "banner": {
+      "var": "mn-masthead",
+      "size": [
+       1600,
+       183
+      ]
+     }
+    },
+    "extras": {
+     "newsletter": {
+      "old": "var NEWSLETTER_URL='';",
+      "new": "var NEWSLETTER_URL='{v}';"
+     }
+    }
+   }
+  }
+ ]
+}
